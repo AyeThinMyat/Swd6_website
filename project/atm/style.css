@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.site-logo{
+    width: 150px;
+}
+.site-nav{
+    position: absolute;
+    top: 0;
+}
+.home{
+    background-image: url("../img/bg-Shape.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 50%;
+    position: relative;
+}
+.social-vertical{
+    position: absolute;
+    bottom: 50px;
+    left: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.social-vertical a{
+    display: block;
+    margin-bottom: 10px;
+}
+.down{
+    width: 6px;
+    height: 40px;
+    background-color: #1a129f;
+}
+.next-btn{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 50%;
+    /*border: 1px solid #000000;*/
+    line-height: 50px;
+    text-align: center;
+
+}
+.about{
+    background-color: #7E76F920;
+}
+.about-text{
+    background-image: url("../img/bg-2.svg");
+    background-size: 50%;
+    background-position:top right;
+    background-repeat: no-repeat;
+}
+.service{
+    background-image: url("../img/bg-3.svg");
+}
+.service-card{
+    border: none !important;
+    border-radius: 35px !important;
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.15) !important;
+    transition: 0.5s;
+}
+.service-card:hover{
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    transform: scale(0.98);
+}
+.service-card-text{
+    height: 180px;
+}
+.pricing{
+    background-color: #7E76F920;
+}
+.pricing-card{
+    border: none !important;
+    border-radius: 35px !important;
+}
+.slick-dots{
+
+}
+.slick-dots ul{
+
+}
+.slick-dots li{
+    width: 10px !important;
+    height: 10px !important;
+    background-color: transparent;
+    border: 1px solid #7E76F9;
+    border-radius: 50%;
+}
+.slick-dots .slick-active{
+    width: 15px !important;
+    height: 15px !important;
+    background-color: #7E76F9 !important;
+}
+.contact{
+
+}
+.footer{
+    background-image: url("../img/footer.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 200px 0 0 0;
+}
+@media screen and (max-width:567px){
+    .content-one {
+        width: 100% !important;
+    }
+    .footer{
+        background-position: center;
+        background-size: cover
+    }
+}
